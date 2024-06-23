@@ -1,3 +1,8 @@
+---
+layout: home
+title: Welcome
+---
+
 # Hi there! 👋
 
 I'm **Sebastian**, from Argentina 🇦🇷
