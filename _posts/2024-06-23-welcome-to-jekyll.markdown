@@ -1,29 +1,70 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Enhancing System Reliability: Key Projects in Monitoring and CI/CD Pipelines"
 date:   2024-06-23 00:45:26 -0300
-categories: jekyll update
+categories: Achivements
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# Projects
 
-Jekyll requires blog post files to be named according to the following format:
+## Monitoring System at CNRT
 
-`YEAR-MONTH-DAY-title.MARKUP`
+### Overview
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+At CNRT, I developed a new monitoring system using **Prometheus** and **Grafana**, replacing an outdated system that relied on **Nagios**.
 
-Jekyll also offers powerful support for code snippets:
+### Challenges
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- **Agent Deployment**: Deployed monitoring agents across all servers.
+- **Alert Thresholds**: Set up alert thresholds and communication channels.
+- **Dashboards**: Created Grafana dashboards that added significant value to our organization.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Key Advantages
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+1. **Proactive Monitoring**: Transitioned from a reactive to a proactive approach in handling server issues.
+2. **Incident Management**: Improved the management of incidents.
+3. **Perception Improvement**: Enhanced the perception of the IT department among other departments.
+
+---
+
+## Kubernetes Cluster Migration
+
+### Overview
+
+I migrated a Kubernetes cluster on **OpenShift** from version **3.1 to 3.11**. This was a critical system for the company, used by multiple clients, and required meticulous planning and execution to minimize downtime.
+
+### Challenges
+
+- **Personal Learning Curve**: I had limited experience with Kubernetes, adding an extra layer of difficulty to the project which had a strict deadline.
+- **Short Maintenance Window**: The migration had to be completed within a minimal maintenance window.
+- **Transparent Migration**: Ensured the migration was transparent to the clients.
+- **Security and Platform Improvements**: Implemented security improvements and platform sanitation to avoid carrying over bad practices to the new cluster.
+
+### Key Advantages
+
+1. **Robust System**: Achieved a more robust and stable system.
+2. **Lifecycle Extension**: Extended the lifecycle of the OpenShift version, which was nearing its end.
+3. **Seamless Transition**: Successfully migrated the cluster with minimal disruption to services.
+
+---
+
+## CI/CD Pipelines Migration at Properati
+
+### Overview
+
+I migrated all CI/CD pipelines at Properati from **GitLab Pipelines** to **GitHub Actions**.
+
+### Challenges
+
+- **Pipeline Complexity**: Managed the complexity of migrating intricate CI/CD pipelines.
+- **Tool Differences**: Addressed differences between GitLab and GitHub Actions to ensure seamless functionality.
+- **Downtime Minimization**: Ensured minimal downtime during the migration process.
+
+### Key Advantages
+
+1. **Improved Integration**: Achieved better integration with GitHub repositories.
+2. **Enhanced Flexibility**: Gained enhanced flexibility and customization options with GitHub Actions.
+3. **Streamlined Workflows**: Streamlined the CI/CD workflows, improving efficiency and developer productivity.
+
+---
+
+These projects reflect my ability to manage and execute complex technical tasks, ensuring improved performance and client satisfaction.
