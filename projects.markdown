@@ -32,8 +32,7 @@ At CNRT, I developed a new monitoring system using **Prometheus** and **Grafana*
 
 ---
 
-### Kubernetes Cluster Migration
-
+### Kubernetes Cluster Migration at Gestion Compartida
 **Overview**
 
 I migrated a Kubernetes cluster on **OpenShift** from version **3.1 to 3.11**. This was a critical system for the company, used by multiple clients, and required meticulous planning and execution to minimize downtime.
